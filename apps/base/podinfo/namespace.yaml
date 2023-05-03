@@ -3,5 +3,5 @@ kind: Namespace
 metadata:
   name: podinfo
   labels:
-    test: infrastructur2
+    test: infrastructur3
     toolkit.fluxcd.io/tenant: dev-team
