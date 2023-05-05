@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: traefik2
+  name: traefikk
   labels:
-    test: release2
-    traefik: version2
+    test: releasek
+    traefik: versionk
