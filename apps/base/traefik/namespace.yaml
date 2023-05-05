@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: traefikk
+  name: traefik
   labels:
-    test: releasek
-    traefik: versionk
+    test: release3
+    traefik: helmrepo
