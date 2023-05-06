@@ -4,6 +4,8 @@ kind: Kustomization
 metadata:
   name: traefik
   namespace: flux-system
+  labels:
+    version: release2
 spec:
   dependsOn:
     - name: metallb
