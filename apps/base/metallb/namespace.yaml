@@ -4,5 +4,5 @@ kind: Namespace
 metadata:
   name: metallb-system
   labels:
-    test: release2
+    test: prod2
     metal: metallb-system
