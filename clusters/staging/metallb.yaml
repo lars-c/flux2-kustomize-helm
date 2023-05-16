@@ -4,6 +4,8 @@ kind: Kustomization
 metadata:
   name: metallb
   namespace: flux-system
+  labels:
+    debug: test1
 spec:
   interval: 1m0s
   sourceRef:
