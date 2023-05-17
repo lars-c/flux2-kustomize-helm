@@ -7,8 +7,6 @@ metadata:
   labels:
     version: release2
 spec:
-  dependsOn:
-    - name: metallb
   interval: 1m0s
   sourceRef:
     kind: GitRepository
