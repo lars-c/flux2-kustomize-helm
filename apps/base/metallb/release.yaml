@@ -6,14 +6,14 @@ metadata:
   namespace: flux-system
 spec:
   dependsOn:
-    - name: metallb
+    - name: metallb-repo
   chart:
     spec:
       chart: metallb
       reconcileStrategy: ChartVersion
       sourceRef:
         kind: HelmRepository
-        name: metallb
+        name: metallb-repo
   interval: 15m0s
   releaseName: metallb
   targetNamespace: metallb-system
