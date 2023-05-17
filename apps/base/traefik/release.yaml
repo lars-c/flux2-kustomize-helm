@@ -6,7 +6,7 @@ metadata:
   namespace: flux-system
 spec:
   dependsOn:
-    - name: metallb
+    - name: flux-system/metallb
   chart:
     spec:
       chart: traefik
