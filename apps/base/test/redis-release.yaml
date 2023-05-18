@@ -17,3 +17,5 @@ spec:
     architecture: standalone
     auth:
       enabled: false
+    image: 
+      tag: 1.0
