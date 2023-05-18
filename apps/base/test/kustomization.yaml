@@ -4,4 +4,5 @@ namespace: pod
 resources:
   - namespace.yaml
   - repository.yaml
+  - redis-release.yaml
 #  - release.yaml
