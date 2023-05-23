@@ -7,5 +7,3 @@ resources:
 #  - ../../base/metallb
 #  - l2advertisement.yaml
 #  - ippool.yaml
-#patchesStrategicMerge:
-#  - podinfo-values.yaml
