@@ -14,8 +14,8 @@ spec:
   wait: true
   timeout: 5m0s
   #
-  healthChecks:
-    - apiVersion: apps/v1
-      kind: Deployment
-      name: metallb-controller
-      namespace: metallb-system
+  #healthChecks:
+  #  - apiVersion: apps/v1
+  #    kind: Deployment
+  #    name: metallb-controller
+  #    namespace: metallb-system
