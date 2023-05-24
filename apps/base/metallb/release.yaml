@@ -5,6 +5,8 @@ metadata:
   name: metallb
   namespace: flux-system
 spec:
+  interval: 15m0s
+  releaseName: metallb
   chart:
     spec:
       chart: metallb
@@ -12,10 +14,7 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: metallb-repo
-  interval: 15m0s
-  releaseName: metallb
-  targetNamespace: metallb-system
   valuesFrom:
-  - kind: ConfigMap
-    name: configmap-metallb-helm-chart-value-overrides
-    valueKey: values.yaml
+    - kind: ConfigMap
+      name: configmap-metallb-helm-chart-value-overrides
+  targetNamespace: metallb-system
