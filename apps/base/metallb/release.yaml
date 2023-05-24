@@ -15,3 +15,7 @@ spec:
   interval: 15m0s
   releaseName: metallb
   targetNamespace: metallb-system
+  valuesFrom:
+  - kind: ConfigMap
+    name: configmap-metallb-helm-chart-value-overrides
+    valueKey: values.yaml
