@@ -17,4 +17,5 @@ spec:
   valuesFrom:
     - kind: ConfigMap
       name: configmap-metallb-helm-chart-value-overrides
+      valuesKey: values.yaml
   targetNamespace: metallb-system
