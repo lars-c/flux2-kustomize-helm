@@ -5,6 +5,5 @@ metadata:
   name: metal-prod
 namespace: metallb-system
 resources:
-#  - secret.yaml
 #  - l2advertisement.yaml
 #  - ippool.yaml
