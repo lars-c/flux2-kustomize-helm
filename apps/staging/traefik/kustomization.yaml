@@ -6,5 +6,5 @@ metadata:
 namespace: traefik
 resources:
   - ../../base/traefik
-#patchesStrategicMerge:
-#  - staging-values.yaml
+patchesStrategicMerge:
+  - staging-values.yaml
